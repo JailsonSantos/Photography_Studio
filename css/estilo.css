@@ -1,0 +1,68 @@
+/*Estilos Personalizados*/
+/*Configuração do TOPO*/
+
+.bg-cor{
+	background-color: black;
+}
+
+.bg-topo{
+	margin-right: -5px;
+}
+
+.bg-sombra{
+	border: 3px solid;
+	border-radius: 3px;
+	border-color: green;
+	margin: 2px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding: 0px;
+	margin-top: -3px;
+}
+
+.bg-rodape ul li{
+	list-style: none;
+	padding-left: 40px;
+}
+
+.bg-rodape ul{
+	-webkit-padding-start: 0px;
+	-moz-padding-start: 0px;
+}
+
+a.icone-social{
+	color: white;
+}
+
+.underline-footer{
+	content: '';
+	border-top: 2px solid white;
+	border
+	width: 70px;
+	display: block;
+	position: relative;
+	margin-top: 5px;
+}
+
+.icon-banner-rodape{
+	color: white;
+}
+
+.underline{
+	content:  '';
+	border-top: 2px solid white;
+	width: 150px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+
+.sombra{
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+
+.sombra:hover{
+	transform: scale(1.1);
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+
+}

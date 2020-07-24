@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Photography Studio</title>
+	<!-- CSS Bootstrap !-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- CSS personalizado !-->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!-- Adicionando Icones !-->
+	<link rel="stylesheet" href="icones/css/font-awesome.min.css">
+	<!-- Adicionando Biblioteca de Animação -->
+	<link rel="stylesheet" href="css/animate.css"/>
+</head>
+
+<body>
+
+	<!--Barra de navegação-->
+	<nav class="navbar navbar-dark bg-success navbar-expand-lg ">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1" aria-controls="nav1" aria-expanded="false" aria-label="Navegação Toggle">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<a class="navbar-brand" href="#"> 
+			<img src="img/logo.png" width="40" height="40" class="d-inline-block">
+			Photography Studio
+		</a>
+		<div class="collapse navbar-collapse justify-content-between"  id="nav1">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a href="#" class="nav-link text-light font-weight-bold">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#cliente" class="nav-link text-light font-weight-bold">Parcerias</a>
+				</li>
+				<li class="nav-item">
+					<a href="#servico" class="nav-link text-light font-weight-bold">Serviços</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link text-light  font-weight-bold dropdown-toggle" href="#" id="linkDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Galeria
+					</a>
+					<div class="dropdown-menu bg-success" aria-labelledby="linkDrop ">
+						<a href="aniversarios.html" class="dropdown-item">Aniversários</a>
+						<a href="casamentos.html" class="dropdown-item">Casamentos</a>
+						<a href="formaturas.html" class="dropdown-item">Formaturas</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a href="faleconosco.html" class="nav-link text-light font-weight-bold">Fale Conosco</a>
+				</li>
+			</ul>
+			<form class="form-inline">
+				<input class="form-control mr-sm-2" type="text" placeholder="Pesquisar..." aria-label="Pesquisar"></input>
+				<a href="buscador.html">
+					<button class="btn btn-light my-2 my-sm-0" type="text">Buscar</button>
+				</a>
+			</form>
+		</div>
+	</nav>
+	<!-- Fim da Barra de navegação-->
+
+	<!--Slide Show-->
+	<div id="slideshow" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#slideshow" data-slide-to="0" class="active"></li>
+			<li data-target="#slideshow" data-slide-to="1"></li>
+			<li data-target="#slideshow" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="row">	
+					<div class="col-lg-6 col-sm-6 p-0">
+						<a href="#">
+						<img src="img/formatura7.jpg" class="d-block w-100" alt="Preimeiro Slide">
+						</a>
+					</div>
+					<div class="col-lg-6 col-sm-6 p-0">
+						<a href="#">
+						<img src="img/formatura8.jpg" class="d-block w-100" alt="Preimeiro Slide">
+						</a>
+					</div>
+				</div>	
+			</div>
+			<div class="carousel-item">
+				<div class="row">	
+					<div class="col-lg-6 col-sm-6 p-0">
+						<a href="#">
+						<img src="img/casamento1.jpg" class="d-block w-100" alt="Preimeiro Slide">
+						</a>
+					</div>
+					<div class="col-lg-6 col-sm-6 p-0">
+						<a href="#">
+						<img src="img/casamento3.jpg" class="d-block w-100" alt="Preimeiro Slide">
+						</a>
+					</div>
+				</div>	
+			</div>
+			<div class="carousel-item">
+				<div class="row">	
+					<div class="col-lg-6 col-sm-6 p-0">
+						<a href="#">
+						<img src="img/aniversario12.jpg" class="d-block w-100" alt="Preimeiro Slide">
+						</a>
+					</div>
+					<div class="col-lg-6 col-sm-6 p-0">
+						<a href="#">
+						<img src="img/aniversario11.jpg" class="d-block w-100" alt="Preimeiro Slide">
+						</a>
+					</div>
+				</div>	
+			</div>
+		</div>
+		<a href="#slideshow" class="carousel-control-prev" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+		<a href="#slideshow" class="carousel-control-next" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Anterior</span>
+		</a>
+	</div>
+	<!--Fim do Slide Show -->
+
+	<!-- Seção quem Somos !-->
+	<section class="container-fluid bg-success py-3">
+		<header class="col text-center text-light">
+			<h1 class="wow flipInX" data-wow-duration="2s" data-wow-delay="1s">Quem Somos?</h1>				<span class="underline"></span> 
+		</header>
+		<div class="row	py-3 text-light">
+			<div class="col-lg-6 px-5">
+				<h3 class="wow fadeInLeft text-center">Photography Studio</h3><br>
+				<p class="wow fadeInLeft text-justify">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>
+				<p class="wow fadeInLeft text-justify">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>	
+				<p class="wow fadeInLeft text-justify">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>
+				<p class="wow fadeInLeft text-justify">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>
+			</div>
+			<div class="col-lg-6 text-center">
+				<img src="img/estudio.jpg" class="wow fadeInUp img w-75 sombra" style="border-radius: 15%; box-shadow: 0px 0px 10px rgba(0,0,0,.8);">
+			</div>
+		</div>
+	</section>
+	<!--Fim da Sessão 1-->
+
+	<!-- Seção o que fazemos !-->
+	<section class="container-fluid bg-info py-3">
+		<header class="col">
+			<h2 class="wow fadeInRight text-center">O que Fazemos?
+				<span class="underline"></span> 
+			</h2>
+		</header>
+		<div class="row	py-3">
+			<div class="col-lg-6 text-center">
+				<img src="img/estudio2.jpg" class="wow fadeInLeft img w-75 sombra"  style="border-radius: 50%; box-shadow: 0px 0px 10px rgba(0,0,0,.9);">
+			</div>
+			<div class="col-lg-6 px-5">
+				<h3 class="wow fadeInRight text-center" data-wow-duration="2s" data-wow-delay="0.25s">Photography Studio</h3>
+				<p class="wow fadeInRight text-justify" data-wow-duration="2s" data-wow-delay="0.5s">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>
+				<p class="wow fadeInRight text-justify" data-wow-duration="2s" data-wow-delay="0.75s">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>	
+				<p class="wow fadeInRight text-justify" data-wow-duration="2s" data-wow-delay="1s">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>
+				<p class="wow fadeInRight text-justify" data-wow-duration="2s" data-wow-delay="1.25s">
+					Uma empresa Maranhense, que atua no ramo de fotografias, mais do que uma bela imagem,
+					buscamos resgistrar momentos importante na vida das pessoas, pois a partir de um flash,
+					aquele momento poderá ser lembrar por gerações.
+				</p>
+			</div>
+		</div>
+	</section>
+	<!--Fim da Sessão 2-->
+
+	<!-- Seção Nossos Trabalhos !-->
+	<div id="servico" class="container-fluid bg-warning">
+		<div class="row p-3 ">
+			<section class="container">
+				<header class="col-md-12">
+					<h1 class="wow fadeInUp text-center py-3">Nossos Trabalhos!
+						<span class="underline"></span> 
+					</h1>
+				</header>
+				<div class="row wow fadeInUp py-3">
+					<div class="col-lg-4 col-sm-12" align="center">
+						<div class="card border-dark my-3 sombra" style="max-width: 17rem; border-radius: 10px;">
+							<img class="card-img-top" src="img/aniversario.jpg" alt="Topo do cartao" style="border-radius: 10px 10px 0px 0px;">
+							<div class="card-body text-center">
+								<h5 class="card-title text-primary">Pacote Ouro</h5>
+								<p class="card-text">Esse pacote tem um limite de 80 fotos, garantimos ótimos registros desse momento especial.</p>
+								<a href="aniversarios.html" class="btn btn-primary">Ver mais...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-12"  align="center">
+						<div class="card border-dark my-3 sombra" style="max-width: 17rem; border-radius: 10px;">
+							<img class="card-img-top" src="img/casamento.jpg" alt="Topo do cartao" style="border-radius: 10px 10px 0px 0px;">
+							<div class="card-body text-center">
+								<h5 class="card-title text-primary">Pacote Premium</h5>
+								<p class="card-text">Esse pacote tem um limite de 120 fotos, garantimos ótimos registros desse momento especial.</p>
+								<a href="casamentos.html" class="btn btn-primary">Ver mais...</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-12" align="center">	
+						<div class="card border-dark my-3 sombra" style="max-width: 17rem; border-radius: 10px;">
+							<img class="card-img-top" src="img/basico.jpg" alt="Topo do cartao" style="border-radius: 10px 10px 0px 0px;">
+							<div class="card-body text-center">
+								<h5 class="card-title text-primary">Pacote VIP</h5>
+								<p class="card-text">Esse pacote tem um limite de 160 fotos, garantimos ótimos registros desse momento especial.</p>
+								<a href="formaturas.html" class="btn btn-primary">Ver mais...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!--Fim da Sessão-->
+
+	<!-- Nossos Parceiros !-->
+	<section id="cliente" class="container-fluid bg-success py-4">
+		<header class="col-lg-12 col-sm-12">
+			<h2 class=" wow fadeInDown text-center text-light py-2">Empresas Parceiras
+				<span class="underline"></span> 
+			</h2>
+		</header>
+		<div class="row wow fadeInUp text-light">
+			<div class="col-lg-4 col-sm-12 py-2" align="center">
+				<img src="img/parceiro1.jpg" class="wow fadeInLeft" data-wow-delay="0.5s" class="img-fluid py-3" style="border-radius: 1050%;">
+				<h3>SEBRAE</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+			</div>
+			<div class="col-lg-4 col-md-12 py-2" align="center">
+				<img src="img/parceiro2.jpg" class="wow fadeInDown" data-wow-delay="0.5s" class="img-fluid py-3" style="border-radius: 1050%;">
+				<h3>Centro Universitário UNDB</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+			</div>
+			<div class="col-lg-4 col-md-12 py-2" align="center">
+				<img src="img/parceiro3.jpg" class="wow fadeInRight" data-wow-delay="0.5s" class="img-fluid py-3" style="border-radius: 1050%;">
+				<h3>Prefeitura Municipal - SLZ</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+			</div>
+		</div>
+	</section>
+	<!--Fim da sessão 3-->
+
+	<!--Sessão vídeos-->
+	<div class="container-fluid bg-info">
+		<div class="row d-flex justify-content-center py-3">
+			<div class="col-lg-6 col-sm-12 schools-text d-flex flex-column justify-content-center align-items-center text-center">
+				<h1 class="wow flipInX" data-wow-duration="3s">Nossas Dicas!</h1><br>
+				<p class="wow fadeInUp" data-wow-duration='3s'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-lg-6 col-sm-12 py-3">
+				<div class="embed-responsive embed-responsive-16by9" style="border-radius: 10px;">
+					<iframe class="wow fadeInRight" data-wow-duration="3s" class="embed-responsive-item" src="https://www.youtube.com/embed/cV9nQSDfh88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Fim da sessão 4-->
+
+	<!-- Nossos Depoimentos !-->
+	<section class="container-fluid bg-warning py-3">
+		<header class="col-lg-12 col-sm-12">
+			<h2 class="wow fadeInDown text-center p-2">Depoimentos dos nossos Clientes!
+				<span class="underline"></span> 
+			</h2>
+		</header>
+		<div class="row wow fadeInUp">
+			<div class="col-lg-3 col-sm-12" align="center">
+				<img src="img/depoimento1.jpg" class="wow fadeInLeft" class="img-fluid" style="border-radius: 50%;">
+				<h3>Gabriela Silva</h3>
+				<p><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua."</i></p>
+			</div>
+			<div class="col-lg-3 col-sm-12" align="center">
+				<img src="img/depoimento2.jpg" class="wow fadeInLeft" class="img-fluid" style="border-radius: 50%;">
+				<h3>Mateus Matos</h3>
+				<p><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua."</i></p>
+			</div>
+			<div class="col-lg-3 col-sm-12" align="center">
+				<img src="img/depoimento3.jpg" class="wow fadeInRight" class="img-fluid" style="border-radius: 50%;">
+				<h3>Dieto Santos</h3>
+				<p><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua."</i></p>
+			</div>
+			<div class="col-lg-3 col-sm-12" align="center">
+				<img src="img/depoimento4.jpg" class="wow fadeInRight" class="img-fluid" style="border-radius: 50%;">
+				<h3>Carolina Silveira</h3>
+				<p><i>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua."</i></p>
+			</div>
+		</div>
+	</section>
+	<!--Fim da sessão 5-->
+
+	<!--Mapa de localização -->
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.017987546411!2d-44.28994278581748!3d-2.5009577981775784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7f68e9de79e0c37%3A0x4eff5758b753c3d!2sTropical%20Shopping!5e0!3m2!1spt-BR!2sbr!4v1595334638238!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
+		</div>
+	</div>
+	<!--Fim do Mapa -->
+
+	<!-- Rodapé !-->
+	<footer class="container-fluid bg-success bg-rodape">
+		<div class="container-fluid p-2">
+			<div class="row wow fadeInUp">
+				<div class="col-lg-6 col-sm-12 p-2">
+					<h5 class="text-light"><i class="fa fa-info-circle fa-2x mx-3 text-light"></i>Endereço e Nossos Contatos</h5>
+					<ul class="text-light">
+						<li><a  class="text-light"><li class="fa fa-angle-right mx-3"></li> Av. Colares Moreira, nº 400, São Luís - MA</a></li>
+						<li><a class="text-light"><li class="fa fa-angle-right mx-3"></li> Telefone: <i class="fa fa-phone-square"></i> (98) 3222-2212 </a></li>
+						<li><a class="text-light"><li class="fa fa-angle-right mx-3"></li> Whatsapp: <a href="https://api.whatsapp.com/send?phone=5598988565096&text=Ol%C3%A1%20tudo%20bem?" class="text-light" target="_blank"><i class="fa fa-whatsapp"> (98)98856-5096</i></a></li>
+						<li><a class="text-light"><li class="fa fa-angle-right mx-3"></li> Email: <i class="fa fa-envelope"></i> Photography_Studio@gmaill.com</a></li>
+					</ul>
+				</div> 
+				<div class="col-lg-6 col-sm-12 p-2">
+					<h5 class="text-light align-middle"><i class="fa fa-comment fa-2x mx-3 text-light"></i>Nossas Redes Sociais</h5>
+					<ul class="text-light">
+						<li><a href="https://www.facebook.com/" class="icone-social" target="_blank"><i class="fa fa-facebook-square fa-lg px-2"></i>Facebook</a></li>
+						<li><a href="https://youtube.com" class="icone-social" target="_blank"><i class="fa fa-youtube fa-lg px-2"></i>Youtube</a></li>
+						<li><a href="https://www.instagram.com/" class="icone-social" target="_blank"><i class="fa fa-instagram fa-lg px-2"></i>Instagram</a></li>
+						<li><a href="https://www.linkedin.com/" class="icone-social" target="_blank"><i class="fa fa-linkedin fa-lg px-2"></i>Linkeding</a></li>
+					</ul>
+				</div> 
+			</div>
+			<div class="wow fadeInUp text-center ">
+				<p class="text-light">&copy; 2020, JailsonBS - Todos os Direitos reservados.
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- Final do Rodapé !-->
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Adicioando Jquery - Pesonalizado!-->
+	<script src="js/main.js"></script>
+	<!-- Adicioando Efeitos de Animação com a biblioteca WOW!-->
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</body>
+</html>
